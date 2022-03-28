@@ -1,0 +1,60 @@
+*{
+	font-family: "微軟正黑體" !important;
+}
+
+body{
+	background: linear-gradient(to left top, lightskyblue, slateblue);
+	background-attachment: fixed;
+}
+
+h3{
+	color:white;
+	text-align:center;
+}
+
+textarea{
+	max-height:80px;
+	max-width:206px;
+}
+
+
+
+
+#center{
+	display:flex;
+	height:100vh;
+	margin:0px;
+}
+
+.center{
+	background-color:white;
+	width:350px;
+	height:400px;
+	border-radius:3%;
+	margin:auto;
+	text-align:center;
+}
+
+.center>h3{
+	color:black;
+}
+
+.center>hr{
+	border-bottom: 1px solid #eee;
+}
+
+.center>input{
+	 padding:15px;
+	 font-size:17px;
+}
+
+.center>button{
+	border: 1px solid red;
+	background-color:aquamarine;
+	border-radius:30px;
+	width:210px;
+	height:60px;
+	font-size:18px;
+	color:gray;
+	font-weight: bolder;
+}
